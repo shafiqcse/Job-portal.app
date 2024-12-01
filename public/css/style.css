@@ -1033,9 +1033,8 @@ About us section start
     color: #ffffff;
 }
 .contact-btn:hover {
-    border: 1px solid #6a0dad;
-    background-color: #ffffff;
-    color: #6a0dad;
+    background-color: #5a32a3;
+    color: #ffffff;
 }
 @media (max-width: 576px) {
     .break br {
