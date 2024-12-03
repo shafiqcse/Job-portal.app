@@ -196,6 +196,10 @@ Nav bar start
     text-align: center;
 }
 
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #6300b3;
+    font-weight: 600;
+}
 /*============================
 Nav bar end
 =============================*/
@@ -634,6 +638,10 @@ Login section start
 .illustration {
     max-width: 100%;
     height: auto;
+}
+
+.form-check-input:checked {
+    background-color: #6a0dad !important;
 }
 @media (max-width: 768px) {
     .login-container {
