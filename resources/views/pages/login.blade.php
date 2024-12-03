@@ -24,14 +24,16 @@
                 </div>
                 <div class="mb-3">
                     <label class="form-label" for="password"> Password </label>
-                    <div class="input-group">
+
+
+                    <div class="input-group align-items-center">
                         <input
-                            class="form-control"
+                            class="form-control login-input"
                             id="password"
                             placeholder="Enter password"
                             type="password"
                         />
-                        <button class="btn btn-outline-secondary" type="button">
+                        <button class="login-show" type="button">
                             Show
                         </button>
                     </div>
@@ -41,7 +43,7 @@
                     <label class="form-check-label" for="rememberMe">
                         Remember me
                     </label>
-                    <a class="forgot-password float-end mb-4" href="#">
+                    <a class="forgot-password float-end mb-4" href="{{route('sendotp')}}">
                         Forgot Password?
                     </a>
                 </div>

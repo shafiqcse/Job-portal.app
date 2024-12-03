@@ -24,6 +24,9 @@ Route::get('/employer', [PageController::class, 'employerPage'])->name('employer
 Route::get('/findjob', [PageController::class, 'findJobPage'])->name('findjob');
 Route::get('/about', [PageController::class, 'aboutusPage'])->name('about');
 Route::get('/contact', [PageController::class, 'contactusPage'])->name('contact');
+Route::get('/sendotp', [PageController::class, 'sendOtpPage'])->name('sendotp');
+Route::get('/verifyotp', [PageController::class, 'verifyOtpPage'])->name('verifyotp');
+Route::get('/resetpassword', [PageController::class, 'resetPasswordPage'])->name('resetpassword');
 
 
 // Login page routes

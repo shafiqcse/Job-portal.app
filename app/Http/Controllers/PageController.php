@@ -35,4 +35,16 @@ class PageController extends Controller
     {
         return view('pages.contactus');
     }
+    public function sendOtpPage()
+    {
+        return view('pages.sendotp');
+    }
+    public function verifyOtpPage()
+    {
+        return view('pages.verifyotp');
+    }
+    public function resetPasswordPage()
+    {
+        return view('pages.resetpassword');
+    }
 }
